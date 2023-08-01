@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "description": "Uniswap Interface",
-  "homepage": "https://fankouzu.github.io/cuiswap",
+  "homepage": "https://qingyutiankong.github.io/test2",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
@@ -76,6 +76,7 @@
     "@walletconnect/web3-provider": "1.1.1-alpha.0"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -101,6 +102,6 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^5.0.0"
   }
 }
